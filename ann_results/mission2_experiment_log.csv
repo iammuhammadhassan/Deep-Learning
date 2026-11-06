@@ -1,0 +1,7 @@
+Run,Architecture,Activation,Learning Rate,Batch Size,Epochs,Final Test Accuracy (%),Epochs to 95%,Time (seconds),Lesson
+Run 1 - Baseline,"(784, 128, 10)",relu,0.05,128,15,96.82,7,13.1,Baseline for comparison.
+Run 2 - Wider,"(784, 256, 10)",relu,0.05,128,15,96.83,7,15.7,More hidden neurons increase model capacity.
+Run 3 - Deeper,"(784, 256, 128, 10)",relu,0.05,128,15,97.47,4,29.5,An extra hidden layer can learn hierarchical features.
+Run 4 - Lower LR,"(784, 256, 128, 10)",relu,0.01,128,15,95.12,15,27.2,A smaller learning rate may improve stability.
+Run 5 - Batch 64,"(784, 256, 128, 10)",relu,0.05,64,15,97.81,2,46.6,Smaller batches produce more frequent updates.
+Run 6 - Tanh,"(784, 256, 128, 10)",tanh,0.05,128,15,96.54,9,36.8,Tanh is zero-centred but may saturate.

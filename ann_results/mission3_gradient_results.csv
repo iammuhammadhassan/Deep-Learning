@@ -1,0 +1,4 @@
+Activation,Mean Absolute First-Layer Weight Gradient
+relu,0.0005707512124079313
+sigmoid,0.00020424318790901452
+tanh,0.00045346125261858106

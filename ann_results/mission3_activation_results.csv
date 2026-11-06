@@ -1,0 +1,4 @@
+Activation,Final Test Accuracy (%),Epochs to Reach 95%
+relu,97.29,4
+sigmoid,91.3,Not reached
+tanh,96.57,7

@@ -1,0 +1,6 @@
+MISSION 4: ROBUSTNESS RESULTS
+
+                        Model  Clean Test Accuracy (%)  Rotated Test Accuracy (%)  Rotation Drop (percentage points)
+                Clean-trained                    97.61                      93.52                               4.09
+                Noisy-trained                    97.86                      94.05                               3.81
+Noise + rotation augmentation                    97.44                      95.66                               1.78
